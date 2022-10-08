@@ -1,0 +1,207 @@
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    .header{
+        height:50px;
+    }
+    .header_left,
+    .logo,
+    .header_right{
+        flex:1;
+        /* justify-content: center; */
+        display: flex;
+        justify-content: center;
+    }
+    .xtlab-ctmenu-item{
+        padding: 0px 10px;
+        font-size:12px;
+    }
+    .logo{
+        width:30%;
+        margin: 0px;
+    }
+    .menu_top a{
+        font-size:8px;
+        padding: 10px 5px;
+        white-space: nowrap;
+    }
+    .slider-wrapper{
+        height: 200px;
+    }
+    .slider-next, .slider-prev {
+        width: 35px;
+        height: 35px;
+    }
+    .slider-next{
+        right: -20px;
+    }
+    .slider-prev{
+        left: -20px;
+    }
+    .offer{
+        margin-top: 5px!important;
+    }
+    .col-offer-title,.offer-content{
+        padding:0px;
+    }
+    .button {
+        padding: 5px;
+        font-size:10px;
+        white-space: nowrap;
+    }
+    .img_reponsive,.image{
+        max-width:100%;
+        height: auto!important;
+    }
+    .sale_title{
+        margin-top:0px;
+        font-size:20px;
+    }
+    .product__name,.giacu{
+        font-size:10px;
+    }
+    .sale__price{
+        height:auto;
+    }
+    .giagiam{
+        font-size:16px;
+    }
+    .product__name{
+        font-size:16px;
+        padding: 2px 0px;
+        height: auto;
+    }
+    .add_to_cart{
+        font-size: 12px ;
+        white-space: nowrap;    
+    }
+    .sale__main{
+        grid-template-columns:  auto auto;
+    }
+    .breadcrumbs{
+        padding: 2.5%;
+        font-size:8px;
+    }
+    .container{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    main{
+        overflow: hidden;
+    }
+    .product_price,.product_name p{
+        font-size:16px;
+    }
+    .product_add_cart button{
+        width: 80%;
+    }
+    hr{
+        width: 90%;
+        margin: auto;
+    }
+    .btn-next{
+        width: 30px;
+        height: 30px;
+        right: -5px;
+    }
+    .btn-prev{
+        width: 30px;
+        height: 30px;
+        left: -5px;
+    }
+    .product_info{
+        padding: 2.5%;
+    }
+    .products-left{
+        display:none
+    }
+    .category-page-row{
+        flex-direction: column;
+    }
+    .shop-container{
+        /* display:grid; */
+        grid-template-columns: auto auto;
+    }
+    footer:before{
+        top: 0;
+    }
+    .table_cart tr{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .table_cart tr td:nth-child(3){
+        display:none;
+    }
+    .table_cart-header tr{
+        display:none;
+    }
+    .table_cart tr td:nth-child(1),.table_cart tr td:nth-child(2),.table_cart tr td:nth-child(4){
+        width: 33%;
+    }
+    .product_quantity{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .table_cart tr td:nth-child(5){
+        color:red;
+    }
+    .table_cart tr td:nth-child(5),.table_cart tr td:nth-child(6){
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    .table_cart tr td:nth-child(6){
+        justify-content: flex-end;
+    }
+    .cart_info{
+        justify-content:start;
+    }
+    .table_order tr th{
+        font-size:12px;
+        white-space: nowrap;
+    }
+    .table_order tr th,.table_order tr td{
+        width:auto;
+        font-size:10px;
+    }
+    .btn_detail{
+        width: 50%;
+        font-size:0px;
+        position: relative;
+    }
+    .btn_detail:after{
+        font-family: "Font Awesome 5 Free";
+        content: "\f06e";
+        font-size: 12px;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+    }
+    .modal-content,.alert-content {
+        width: 90%;
+        height:auto;
+        max-height: 60%;
+    }
+    .modal-body{
+        padding:20px 0px;
+    }
+    .order_form-content-item-info-name {
+        text-align: left;
+    }
+    .header_left a{
+        font-size:16px;
+        /* position: relative; */
+    }
+    
+    .icon_cart,.fa-search{
+        font-size: 16px;
+    }
+}
+@media screen {
+    
+}
